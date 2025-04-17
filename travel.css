@@ -196,7 +196,7 @@ nav a {
 
 #CUform {
     width: 500px;
-    height: 320px;
+    height: 330px;
     background-color: rgba(35, 40, 59, 0.65);
     color: white;
     margin-right: 100px;
@@ -222,7 +222,7 @@ nav a {
 #CUform button {
     text-align: center;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 15px;
     background-color: teal;
     border: none;
     border-radius: 20px;
