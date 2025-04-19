@@ -10,7 +10,7 @@ body {
     background-image: url(paisagem.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat:repeat;
     height: 100vh;
   }
 
@@ -106,9 +106,32 @@ nav a {
     font-family: 'Montserrat', sans-serif;
     font-size:medium;
     margin-left: 100px;
-    margin-top: 05px;
-    margin-right: 850px;
+    margin-top: 5px;
+    width: 425px;
 }
+
+#result:not(:empty) {
+    background-color: rgba(35, 40, 59, 0.8);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size:medium;
+    margin-left: 750px;
+    margin-top: -400px;
+    margin-right: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#result img {
+    width: 100%;
+}
+
+#result p {
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+
 
 #navlinksAU, #navlinksCU {
     margin-right: 600px;
