@@ -43,11 +43,11 @@ function searchTrip() { //Continuar essa função!!
 
                 if (places.length > 0) {
                     for (let i=0; i<places.length; i++) {
-                        resultDiv.innerHTML += `<div class="recom">`;
-                        resultDiv.innerHTML += `<img src="${places[i].imageUrl}" alt="img">`;
-                        resultDiv.innerHTML += `<h2>${places[i].name}</h2>`;
-                        resultDiv.innerHTML += `<p>${places[i].description}</p>`;
-                        resultDiv.innerHTML += `</div>`;
+                        resultDiv.innerHTML += `<div class="recom">
+                                                <img src="${places[i].imageUrl}" alt="img">
+                                                <h2>${places[i].name}</h2>
+                                                <p>${places[i].description}</p>
+                                                </div>`;
                     }
                 } else {
                     console.log('Vazio mesmo');
